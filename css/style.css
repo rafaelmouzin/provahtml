@@ -1,0 +1,57 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #007bff; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Tamanho da fonte do título */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+/* Estilo para a navegação */
+nav {
+    background-color: #f8f9fa; /* Cor de fundo da navegação */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 1.2rem; 
+    font-family: Arial, sans-serif; 
+    padding: 5px 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+nav ul li a:hover {
+    background-color: #007bff; 
+    color: #fff; 
+}
+body{
+
+        background-color: antiquewhite;
+}
+
+
+

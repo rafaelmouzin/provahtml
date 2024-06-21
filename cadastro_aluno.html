@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="css/cadastroaluno.css">
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form id="formAluno">
+        Nome: <input type="text" id="nomeAluno" required><br><br>
+        Matrícula: <input type="text" id="matriculaAluno" required><br><br>
+        <button type="submit">Cadastrar Aluno</button>
+    </form>
+    <button onclick="window.location.href='index.html'">Voltar</button>
+
+    <script>
+        document.getElementById('formAluno').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let nome = document.getElementById('nomeAluno').value;
+            let matricula = document.getElementById('matriculaAluno').value;
+
+            // Aqui você pode salvar os dados em localStorage, enviar para um servidor, etc.
+            alert(`Aluno cadastrado:\nNome: ${nome}\nMatrícula: ${matricula}`);
+            this.reset(); // Limpa o formulário após o cadastro
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
